@@ -65,11 +65,12 @@ packer.startup(function (use)
 	-- =================================================================================
 	-- theme
 	-- =================================================================================
-	-- use({ "catppuccin/nvim", as = "catppuccin" })
-	use({
-		"folke/tokyonight.nvim",
-		as = "tokyonight",
-	})
+	use({ "catppuccin/nvim", as = "catppuccin" })
+	--
+	-- use({
+	-- 	"folke/tokyonight.nvim",
+	-- 	as = "tokyonight",
+	-- })
 
 	-- =================================================================================
 	-- dir searcher
@@ -81,11 +82,12 @@ packer.startup(function (use)
 end)
 
 
-require("tokyonight").setup({
-    transparent = true,
-    styles = {
-	sidebars = "transparent",
-	floats = "transparent",
-    },
-})
-vim.cmd[[colorscheme tokyonight-night]]
+-- require("tokyonight").setup({
+--     transparent = true,
+--     styles = {
+-- 	sidebars = "transparent",
+-- 	floats = "transparent",
+--     },
+-- })
+
+vim.cmd[[colorscheme catppuccin]]
