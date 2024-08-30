@@ -81,13 +81,3 @@ packer.startup(function (use)
 	use { 'nvim-telescope/telescope-file-browser.nvim', requires = {{ 'nvim-telescope/telescope.nvim' }}}
 end)
 
-
--- require("tokyonight").setup({
---     transparent = true,
---     styles = {
--- 	sidebars = "transparent",
--- 	floats = "transparent",
---     },
--- })
-
-vim.cmd[[colorscheme catppuccin]]

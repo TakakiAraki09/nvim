@@ -6,11 +6,11 @@ telescope.setup {
 	defaults = {
 		file_ignore_patterns = { "node%_modules/.*" }
 	},
-	pickers = { find_files = { theme = 'dropdown' } },
+	pickers = { find_files = { theme = 'ivy' } },
 	extensions = {
 		file_browser = {
-			-- theme = "ivy",
-			theme = "dropdown",
+			theme = "ivy",
+			-- theme = "dropdown",
 			path = '%:p:h',
 			cwd = 'telescope_buffer_dir()',
 			respect_gitignore = false,
